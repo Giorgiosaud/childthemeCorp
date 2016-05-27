@@ -1,0 +1,23 @@
+{
+    "key": "group_5745de17b06e6",
+    "title": "Tipos de Productos",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "tipo_de_producto"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1464201290
+}
