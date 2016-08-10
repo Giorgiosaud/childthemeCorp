@@ -7,7 +7,7 @@ function childGeocode(){
 				center: results[0].geometry.location,
 				zoom: 16
 			});
-			alert('doing'+results[0].geometry.location);
+			alert(map);
 			var marker = new google.maps.Marker({
 				map: map,
 				//		icon: image,
