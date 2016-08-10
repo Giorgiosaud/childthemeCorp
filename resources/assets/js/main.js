@@ -1,5 +1,3 @@
-jQuery(document).ready(function($) {
-	
 function childGeocode(geocoder){
 var url=location.origin,
 	address =String('calle  San Juan Bosco puerto la cruz,Venezuela');
@@ -21,5 +19,4 @@ var url=location.origin,
 			alert('Geocode was not successful for the following reason: ' + status);
 		}
 	});
-}
-});
+};
