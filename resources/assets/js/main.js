@@ -5,7 +5,7 @@ function childGeocode(){
 		if (status === google.maps.GeocoderStatus.OK) {
 			map = new google.maps.Map(document.getElementById('map2'), {
 				center: results[0].geometry.location,
-				zoom: 8
+				zoom: 12
 			});
 			console.log('redult'+results[0].geometry.location);
 			var marker = new google.maps.Marker({
