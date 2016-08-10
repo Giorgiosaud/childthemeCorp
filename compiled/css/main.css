@@ -23,7 +23,7 @@ body {
 .footer-line {
   width: 100%;
   height: 1em;
-  background: #17270f;
+  background: #4e68ac;
 }
 .inner-container {
   padding-top: 60px;
@@ -126,7 +126,7 @@ nav.navbar-customized.navbar.navbar-default.navbar-fixed-top li>a:focus {
 }
 .InformacionCorporativa {
   margin-bottom: 2em;
-  background: #17270f;
+  background: #4e68ac;
   color: #fff;
   display: -ms-flexbox;
   display: flex;
