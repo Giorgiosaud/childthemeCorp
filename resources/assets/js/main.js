@@ -1,6 +1,6 @@
 function childGeocode(){
 	var geocoder = new google.maps.Geocoder(),
-	address2 =String('Calle San Juan Bosco, Puerto La Cruz, Venezuela');
+	address2 =String('10.199710, -64.640241');
 	geocoder.geocode({'address': address2}, function(results, status) {
 		if (status === google.maps.GeocoderStatus.OK) {
 			map = new google.maps.Map(document.getElementById('map2'), {
