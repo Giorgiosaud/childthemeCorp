@@ -1,5 +1,6 @@
-function childGeocode(geocoder){
-var url=location.origin,
+function childGeocode(){
+	var geocoder = new google.maps.Geocoder(),
+		url=location.origin,
 	address =String('calle  San Juan Bosco puerto la cruz,Venezuela');
 	window.address=address;
 	geocoder.geocode({'address': address}, function(results, status) {
@@ -19,5 +20,5 @@ var url=location.origin,
 			alert('Geocode was not successful for the following reason: ' + status);
 		}
 	});
-};
+}
 //# sourceMappingURL=child.js.map
