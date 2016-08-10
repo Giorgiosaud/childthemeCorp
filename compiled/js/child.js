@@ -1,6 +1,6 @@
 function childGeocode(){
 	var geocoder = new google.maps.Geocoder(),
-	address =String('Calle San Juan Bosco,Puerto La Cruz, Edo. Anzoátegui');
+	address =String('Calle San Juan Bosco, Puerto La Cruz');
 	window.address=address;
 	geocoder.geocode({'address': address}, function(results, status) {
 		if (status === google.maps.GeocoderStatus.OK) {
