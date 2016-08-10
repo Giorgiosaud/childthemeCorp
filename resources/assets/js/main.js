@@ -7,7 +7,7 @@ function childGeocode(){
 				center: results[0].geometry.location,
 				zoom: 16
 			});
-			console.log(results[0].geometry.location);
+			console.log('redult'+results[0].geometry.location);
 			var marker = new google.maps.Marker({
 				map: map,
 				//		icon: image,
