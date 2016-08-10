@@ -77,6 +77,9 @@ get_template_part('flex','section');
 				</section>
 				<section class="Direccion container">
 					<div class="Direccion__texto">
+					<div class="Direccion__Titulo">
+							<h1>Venezuela</h1>
+						</div>
 						<div class="Drieccion__texto__Linea1">
 							<p>
 								Calle San Juan Bosco, Edificio  Altagracia primer piso
