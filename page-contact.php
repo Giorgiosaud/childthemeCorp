@@ -100,7 +100,7 @@ get_template_part('flex','section');
 						</div>
 					</div>
 					<div class="Direccion__mapa">
-						<div id="map2"></div>
+						<div id="map2" class="map"></div>
 					</div>
 				</section>
 				<form id="emailForm" class="ContactForm container" method="POST">
